@@ -16,6 +16,7 @@ public abstract class A {
     public abstract static class B {}
 
     public abstract static class Params implements ValueSourceParameters {
+        @Nested
         public abstract Property<B> getB();
     }
 
