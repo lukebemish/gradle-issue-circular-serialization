@@ -34,4 +34,8 @@ public abstract class A {
 
     @Nested
     public abstract B getB();
+
+    public Provider<String> getCalculated() {
+        return calculated;
+    }
 }

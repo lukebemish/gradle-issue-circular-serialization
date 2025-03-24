@@ -4,5 +4,5 @@ import test.TestTask
 val aInstance: A = objects.newInstance<A>()
 
 tasks.register<TestTask>("testTask") {
-    b = aInstance.b
+    stringProperty = aInstance.calculated
 }

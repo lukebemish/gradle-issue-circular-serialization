@@ -6,5 +6,5 @@ import org.gradle.api.tasks.Input;
 
 public abstract class TestTask extends DefaultTask {
     @Input
-    public abstract Property<A.B> getB();
+    public abstract Property<String> getStringProperty();
 }
