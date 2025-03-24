@@ -3,6 +3,6 @@ import test.TestTask
 
 val aInstance: A = objects.newInstance<A>()
 
-tasks.register<TestTask>("myTask") {
+tasks.register<TestTask>("testTask") {
     b = aInstance.b
 }
